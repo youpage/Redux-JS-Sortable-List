@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+}
+div#ascending,
+div#descending {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    background:#94cae4;
+    align-self: flex-end;
+}
+
+div#descending {
+    background:#b6b6e0;
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+.container {
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+}
+.align {
+    display: inline-flex;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
